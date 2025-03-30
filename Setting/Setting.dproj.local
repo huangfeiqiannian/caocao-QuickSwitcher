@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/03/17 22:57:08.000.502,=C:\Users\3-5105\Documents\RAD Studio\工程\Unit1.pas</Transaction>
+    <Transaction>2025/03/17 22:57:27.000.467,C:\Users\3-5105\Documents\RAD Studio\工程\Unit1.dfm=C:\Users\3-5105\Documents\RAD Studio\工程\Setting.dfm</Transaction>
+    <Transaction>2025/03/17 22:57:27.000.467,C:\Users\3-5105\Documents\RAD Studio\工程\Unit1.pas=C:\Users\3-5105\Documents\RAD Studio\工程\Setting.pas</Transaction>
+    <Transaction>2025/03/17 22:57:51.000.794,C:\Users\3-5105\Documents\RAD Studio\工程\Setting.dfm=C:\Users\3-5105\Documents\RAD Studio\工程\Main.dfm</Transaction>
+    <Transaction>2025/03/17 22:57:51.000.794,C:\Users\3-5105\Documents\RAD Studio\工程\Setting.pas=C:\Users\3-5105\Documents\RAD Studio\工程\Main.pas</Transaction>
+    <Transaction>2025/03/17 22:58:00.000.580,C:\Users\3-5105\Documents\RAD Studio\工程\Project1.dproj=C:\Users\3-5105\Documents\RAD Studio\工程\Setting.dproj</Transaction>
+    <Transaction>2025/03/22 21:11:58.000.380,=C:\Users\3-5105\Documents\RAD Studio\工程\HotKeyEdit.pas</Transaction>
+    <Transaction>2025/03/22 23:14:12.000.897,=C:\Users\3-5105\Documents\RAD Studio\工程\WindowRuleEdit.pas</Transaction>
+    <Transaction>2025/03/30 15:51:14.008,=C:\Users\3-5105\source\repos\CCSW\rc\StaticLib.ico</Transaction>
+  </Transactions>
+</BorlandProject>
