@@ -1,0 +1,8 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/.vs/CCSW/FileContentIndex
+/CCSW.sln
+/CCSW/CCSW.vcxproj
+/CCSW/CCSW.vcxproj.filters
