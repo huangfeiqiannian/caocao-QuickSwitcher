@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RuleDetailDialog</class>
+ <widget class="QDialog" name="RuleDetailDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>456</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>规则详情</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="nameLayout">
+     <item>
+      <widget class="QLabel" name="labelRuleName">
+       <property name="text">
+        <string>规则名称:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="ruleNameEdit"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="matchGroup">
+     <property name="title">
+      <string>匹配条件</string>
+     </property>
+     <layout class="QVBoxLayout" name="matchLayout">
+      <item>
+       <layout class="QFormLayout" name="formLayout">
+        <property name="fieldGrowthPolicy">
+         <enum>QFormLayout::FieldGrowthPolicy::ExpandingFieldsGrow</enum>
+        </property>
+        <property name="rowWrapPolicy">
+         <enum>QFormLayout::RowWrapPolicy::WrapAllRows</enum>
+        </property>
+        <item row="0" column="0">
+         <widget class="QLabel" name="labelTitle">
+          <property name="text">
+           <string>窗口标题:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="labelClassName">
+          <property name="text">
+           <string>类名:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="labelExePath">
+          <property name="text">
+           <string>程序路径:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="titleEdit"/>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="classNameEdit"/>
+        </item>
+        <item row="2" column="1">
+         <layout class="QHBoxLayout" name="exePathLayout">
+          <item>
+           <widget class="QLineEdit" name="exePathEdit"/>
+          </item>
+          <item>
+           <widget class="QToolButton" name="browseButton">
+            <property name="text">
+             <string>...</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="actionGroup">
+     <property name="title">
+      <string>操作</string>
+     </property>
+     <layout class="QVBoxLayout" name="actionLayout">
+      <item>
+       <layout class="QFormLayout" name="formLayout_2">
+        <item row="2" column="1">
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <layout class="QHBoxLayout" name="hotkeyRowLayout">
+            <item>
+             <widget class="QLabel" name="labelHotkey">
+              <property name="text">
+               <string>快捷键:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="hotkeyEdit"/>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item row="2" column="0">
+         <widget class="QRadioButton" name="hotkeyRadioButton">
+          <property name="text">
+           <string>指定快捷键</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QRadioButton" name="topMostRadioButton">
+          <property name="text">
+           <string>置顶</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QRadioButton" name="ignoreRadioButton">
+          <property name="text">
+           <string>隐藏</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item alignment="Qt::AlignmentFlag::AlignRight">
+    <widget class="QPushButton" name="saveButton">
+     <property name="text">
+      <string>保存</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
